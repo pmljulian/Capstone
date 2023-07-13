@@ -1,0 +1,34 @@
+
+.deleteid{
+    display:none;
+}
+
+@media print {
+    *{
+        -webkit-print-color-adjust:exact;
+        print-color-adjust:exact !important;
+    }
+    .table thead{
+        color:black !important;
+        border-style: solid;
+        border-color: rgb(77, 76, 76) !important;
+        /* add this line for better support in chrome */ 
+    }
+    .table #am{
+        background-color: #fff6c9 !important;
+        /* add this line for better support in chrome */ 
+    }
+    .table #re{
+        background-color: #5dc3e9 !important;
+        /* add this line for better support in chrome */ 
+    }
+    .table th{
+        background-color: #FFC0CB !important;
+        border-style: solid;
+        border-color: rgb(77, 76, 76) !important;
+    }
+    .table td{
+        border-style: solid;
+        border-color: rgb(77, 76, 76) !important;
+    }
+  }
